@@ -160,7 +160,7 @@ src/background  service worker: messages, the run engine, scheduling, Claude
 src/content     fills the open form on screen
 src/ui          the side panel, built with Preact
 legal/          terms, privacy, acceptable use, licenses (also built into the extension)
-docs/           architecture notes, screenshots, store listing
+docs/           architecture notes, screenshots, store upload guide
 video/          the showcase video renderer
 ```
 

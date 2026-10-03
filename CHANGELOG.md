@@ -1,9 +1,5 @@
 # Changelog
 
-## Next
-
-- A Source link in Settings that opens this repository.
-
 ## 1.1.0 (2 October 2026)
 
 A big polish release.
@@ -16,6 +12,7 @@ A big polish release.
 - More space between the crowd card and the question search.
 - Legal pages built into the extension: Terms of Use, Privacy Policy, Acceptable Use Policy and open-source licenses.
 - Plain punctuation throughout, checked automatically by `npm run check`.
+- A Source link in Settings that opens this repository.
 
 ## 1.0.0 (2 October 2026)
 

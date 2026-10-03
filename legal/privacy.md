@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Effective 2 October 2026
+Effective 3 October 2026
 
 Crowdfill is built so that your data stays with you. We, **dyrt.io**, don't run servers for Crowdfill, don't use analytics or tracking, and don't collect, sell or share any information about you.
 
@@ -30,6 +30,8 @@ Nothing is sent to us.
 ## Chrome Web Store disclosure
 
 Crowdfill does not collect or transmit personal or sensitive user data to the developer. Data that passes through the extension is used only for its single purpose, generating and submitting form responses that you configure. It is never sold, never used for advertising, never used to determine creditworthiness, and never transferred to anyone except the services listed above, at your request.
+
+Crowdfill's use of data complies with the Chrome Web Store User Data Policy, including the Limited Use requirements.
 
 ## Permissions and why they're needed
 
