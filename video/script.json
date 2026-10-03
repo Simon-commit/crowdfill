@@ -1,0 +1,12 @@
+[
+  { "id": "intro1", "text": "Testing a Google Form usually means filling it in yourself. Again. And again. And again." },
+  { "id": "intro2", "text": "Crowdfill does it for you, with people who actually feel real." },
+  { "id": "load", "text": "Open your form, click the icon, and it reads every question. Scales, grids, branching, even your validation rules." },
+  { "id": "crowd", "text": "Then decide who's answering. A happy crowd, an unhappy one, or one that's split right down the middle." },
+  { "id": "mood", "text": "Everyone gets a mood, so each person's answers actually agree with each other." },
+  { "id": "tendency", "text": "Want a question to lean a certain way? Pick the answer, drag the strength, and watch the numbers follow." },
+  { "id": "ai", "text": "Or describe the people you want, and let Claude write them. Each one answers the whole form in character." },
+  { "id": "preview", "text": "Look over every response before a single one is sent." },
+  { "id": "run", "text": "Then set the pace, press send, and watch your results come in, leaning exactly the way you planned." },
+  { "id": "outro", "text": "Crowdfill. Free, private, and open source. Made by dyrt dot I O." }
+]

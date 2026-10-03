@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Crowdfill video stage</title>
+<link rel="stylesheet" href="stage.css">
+</head>
+<body>
+<div id="bg"><div class="glow g1"></div><div class="glow g2"></div><div class="grain"></div></div>
+
+<section id="title" class="card-scene">
+  <img class="mark" src="../icons/icon-256.png" alt="">
+  <h1>Crowdfill</h1>
+  <p>Google Forms responses <em>with a tendency.</em></p>
+</section>
+
+<section id="end" class="card-scene">
+  <img class="mark" src="../icons/icon-256.png" alt="">
+  <h1>Crowdfill</h1>
+  <p>Free on the Chrome Web Store</p>
+  <div class="pills"><span>Free</span><span>Private</span><span>Open source</span></div>
+  <div class="by">by dyrt.io</div>
+</section>
+
+<div id="camera">
+  <div id="window">
+    <div class="tabs">
+      <span class="lights"><i></i><i></i><i></i></span>
+      <span class="tab"><span class="fav"></span>Riverside Café Customer Survey<span class="x"></span></span>
+      <span class="newtab">+</span>
+    </div>
+    <div class="toolbar">
+      <span class="nav">
+        <svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/></svg>
+      </span>
+      <span class="omnibox"><svg viewBox="0 0 24 24"><rect x="6" y="11" width="12" height="9" rx="2"/><path d="M9 11V8a3 3 0 0 1 6 0v3"/></svg>docs.google.com/forms/d/e/1FAIpQLSd.../viewform</span>
+      <span class="tools">
+        <span class="puzzle"><svg viewBox="0 0 24 24"><path d="M10 4a2 2 0 1 1 4 0v2h4v4h-2a2 2 0 1 0 0 4h2v4H6v-4h2a2 2 0 1 0 0-4H6V6h4z"/></svg></span>
+        <img id="ext-icon" src="../icons/icon-48.png" alt="Crowdfill">
+        <span class="avatar">S</span>
+      </span>
+    </div>
+    <div class="viewport">
+      <div id="page">
+        <div id="form" class="page-view">
+          <div class="fcard head">
+            <h2>Riverside Café Customer Survey</h2>
+            <p>Thanks for visiting Riverside Café! This takes about two minutes.</p>
+          </div>
+          <div class="fcard">
+            <div class="q">Full name <b>*</b></div>
+            <div class="text-input" id="f-name"><span></span><i class="caret"></i></div>
+          </div>
+          <div class="fcard">
+            <div class="q">Overall, how satisfied were you? <b>*</b></div>
+            <div class="scale" data-q="sat">
+              <span class="end">Very dissatisfied</span>
+              <label><small>1</small><i></i></label><label><small>2</small><i></i></label><label><small>3</small><i></i></label><label><small>4</small><i></i></label><label><small>5</small><i></i></label>
+              <span class="end">Very satisfied</span>
+            </div>
+          </div>
+          <div class="fcard">
+            <div class="q">The staff were friendly and helpful <b>*</b></div>
+            <div class="choices" data-q="staff">
+              <label><i></i>Strongly disagree</label><label><i></i>Disagree</label><label><i></i>Neutral</label><label><i></i>Agree</label><label><i></i>Strongly agree</label>
+            </div>
+          </div>
+          <div class="submit-row"><span class="submit" id="f-submit">Submit</span><span class="clear">Clear form</span></div>
+          <div id="recorded">Your response has been recorded.</div>
+        </div>
+
+        <div id="results" class="page-view">
+          <div class="rhead">
+            <div><div class="rk">Responses</div><div class="rcount" id="r-count">0</div></div>
+            <div class="live"><i></i>Live</div>
+          </div>
+          <div class="fcard">
+            <div class="q">Overall, how satisfied were you?</div>
+            <div class="bars" id="r-bars">
+              <div><span class="v">0</span><i></i><small>1</small></div>
+              <div><span class="v">0</span><i></i><small>2</small></div>
+              <div><span class="v">0</span><i></i><small>3</small></div>
+              <div><span class="v">0</span><i></i><small>4</small></div>
+              <div><span class="v">0</span><i></i><small>5</small></div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="fcard"><div class="rk">Average satisfaction</div><div class="big" id="r-avg">-</div></div>
+            <div class="fcard"><div class="rk">Would recommend</div><div class="big" id="r-nps">-</div></div>
+          </div>
+        </div>
+      </div>
+      <div id="panel">
+        <div class="phead"><img src="../icons/icon-32.png" alt="">Crowdfill<span class="spacer"></span><span class="pin"></span><span class="close"></span></div>
+        <div id="app-slot"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="tally">Responses <b id="tally-n">0</b></div>
+<div id="cursor"><svg viewBox="0 0 32 32"><path d="M6 3l18 17h-9.5l5.6 9.5-3.6 2-5.6-9.6L6 28z"/></svg><span class="ring"></span></div>
+<div id="caption"><span></span></div>
+<div id="vt-pulse"></div>
+
+<script src="stage.js"></script>
+</body>
+</html>
